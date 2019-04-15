@@ -5,13 +5,7 @@
         <Intro></Intro>
       </div>
       <div class="section" >
-        <section class="box-wrapper">
-          <div class="contentBox">
-            <div class="content">
-              Section2
-            </div>
-          </div>
-        </section>
+        <Works></Works>
       </div>
       <div class="section" >
         <section class="box-wrapper">

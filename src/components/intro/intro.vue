@@ -29,9 +29,10 @@
     </section>
 </template>
 
-<style lang="less" src='./intro.less'></style>
+<style lang="less"  src='./intro.less'></style>
 <style lang="less" src='../../assets/base.less' ></style>
 <script src='./intro.js'></script>
+
 
 
 

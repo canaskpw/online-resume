@@ -5,24 +5,9 @@
 
 
 .box-wrapper{
-    padding: 2% 5%;
-    height: 100%;
-    @media screen and (max-width: 500px) {
-        padding: 2%;
-    }
+    
     .contentBox{
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.6);
-        padding: 20px;
-        @media screen and (max-width: 500px) {
-            padding: 0px;
-        }
         .content{
-            background-color: @darkBlue;
-            height: 100%;
-            color: white;
-            position: relative;
-            overflow: hidden;
             display: grid;
             grid-template-rows: 1fr;
             grid-template-columns: 20% 1fr 20%;
@@ -74,6 +59,7 @@
                     }
                     a:link{
                         color: @gold;
+                        // background-color: rgb(235, 222, 195);
                     }
                     a:visited{
                         color: @gold;
@@ -88,7 +74,7 @@
                         margin-top: 30%;
                         .pdf{
                             padding: 15px 20px;
-                            background-color: #fff;
+                            background-color: rgb(238, 231, 215);
                             border-radius: 5px;
                             font-size: 20px;
                             cursor: pointer;
@@ -102,7 +88,7 @@
                             align-self: start;
                             justify-self: start;
                             padding: 15px 20px;
-                            background-color: #fff;
+                            background-color: rgb(238, 231, 215);
                             color: @gold;
                             border-radius: 5px;
                             cursor: pointer;
@@ -140,6 +126,9 @@
                         border: @gold dashed 2px;
                         border-radius: 50%;
                         transition: all 0.5s;
+                    }
+                    .js-tilt-glare{
+                        border-radius: 50%;
                     }
                     &:hover::before{
                         box-shadow: @goldShadow;

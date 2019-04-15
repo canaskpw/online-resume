@@ -1,9 +1,11 @@
 import Intro from "@/components/intro/intro.vue";
-// import VanillaTilt from 'vanilla-tilt'
+import Works from "@/components/works/works.vue";
 import Vue from 'vue'
 
+
+
 Vue.directive('tilt', function (el, binding) {
-  VanillaTilt.init(el, Object.assign({}, binding.value) );
+  VanillaTilt.init(el, Object.assign({}, binding.value));
 });
 
 export default {
@@ -17,7 +19,8 @@ export default {
       }
     },
     components: {
-        Intro
+        Intro,
+        Works,
     },
     // mounted(){
     //   console.log(VanillaTilt);

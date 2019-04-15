@@ -10,3 +10,26 @@
     width: 200px;
     background-color: lightblue;
 }
+
+.box-wrapper{  /*金白蓝大体框架*/
+  padding: 2% 5%;
+  height: 100%;
+  @media screen and (max-width: 500px) {
+      padding: 2%;
+  }
+  .contentBox{
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 20px;
+      @media screen and (max-width: 500px) {
+          padding: 0px;
+      }
+      .content{
+          background-color: @darkBlue;
+          height: 100%;
+          color: white;
+          position: relative;
+          overflow: hidden;
+      }
+    }
+  }
