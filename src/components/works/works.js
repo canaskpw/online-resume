@@ -32,7 +32,6 @@ export default {
             }).catch(() => {})
             new Clipboard('.contactList .content', {
                 target: function(trigger) {
-                    console.log(trigger);
                     let copied = trigger.nextElementSibling
                     copied.textContent = ' 已复制'
                     console.log(trigger.textContent);

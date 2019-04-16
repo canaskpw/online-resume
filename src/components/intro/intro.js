@@ -1,6 +1,7 @@
 import VanillaTilt from 'vanilla-tilt'
 import {MessageBox} from 'element-ui'
 import Clipboard from 'clipboard'
+import Button from '@/components/button.vue'
 
 export default {
     data(){
@@ -55,4 +56,7 @@ export default {
 
         // });
       },
+      components: {
+          Button,
+      }
 }

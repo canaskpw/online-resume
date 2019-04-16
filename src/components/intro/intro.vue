@@ -17,8 +17,14 @@
                         <span class="target">岗位：前端工程师</span>
                         <span class="collage">浙江工业大学</span>
                         <div class="buttons">
-                            <a class="pdf"  href='../../static/resume.pdf'>PDF简历下载</a>
-                            <a class="contact" @click="showContact" href="#">联系方式</a>
+                            <span class="pdf">
+                                <Button textContent='PDF简历下载' href='../../static/resume.pdf'></Button>
+                            </span>
+                            <span class="contact">
+                                <Button textContent='联系方式' href='#'></Button>
+                            </span>
+                            <!-- <a class="pdf"  href='../../static/resume.pdf'>PDF简历下载</a>
+                            <a class="contact" @click="showContact" href="#">联系方式</a> -->
                         </div>
                         <span class="suggestion">下滑查看更多内容</span>
                     </div>
