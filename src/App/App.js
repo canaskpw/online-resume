@@ -22,9 +22,4 @@ export default {
         Intro,
         Works,
     },
-    // mounted(){
-    //   console.log(VanillaTilt);
-    //   let avatar = document.querySelector(".avatar")
-    //   VanillaTilt.init(avatar);
-    // }
   }

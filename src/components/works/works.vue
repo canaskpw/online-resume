@@ -2,7 +2,20 @@
     <section class="box-wrapper">
         <div class="contentBox">
             <div class="content">
-
+                <div class="title">
+                    <h1>作品展示</h1>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <Card src='/static/img/works/music-admin.jpg' text='网易云管理界面'></Card>
+                    </div>
+                    <div class="card">
+                        <Card text='多人共享博客'></Card>
+                    </div>
+                    <div class="card">
+                        <Card text='多人共享博客'></Card>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

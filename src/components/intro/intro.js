@@ -15,18 +15,18 @@ export default {
                 title: '点击复制联系方式',
                 message: 
                 `
-                    <div class='contactList'>
-                        <span class='m-bold'>email: </span>
+                    <div class='email contactList'>
+                        <span class='m-bold name'>email: </span>
                         <span class='m-hightlight m-pointer content' id='email'>cyitao@foxmail.com</span>
                         <span></span>
                     </div>
-                    <div class='contactList'>
-                        <span class='m-bold'>QQ: </span>
+                    <div class='qq contactList'>
+                        <span class='m-bold name'>QQ: </span>
                         <span class='m-hightlight m-pointer content' id='qq'>285345240</span>
                         <span></span>
                     </div>
-                    <div class='contactList'>
-                        <span class='m-bold'>phone & wechat: </span> 
+                    <div class='phone contactList'>
+                        <span class='m-bold name'>phone & wechat: </span> 
                         <span class='m-hightlight m-pointer content' id='phone'>17767212383</span>
                         <span></span>
                     </div>
@@ -35,10 +35,7 @@ export default {
             }).catch(() => {})
             new Clipboard('.contactList .content', {
                 target: function(trigger) {
-                    console.log(trigger);
-                    let copied = trigger.nextElementSibling
-                    copied.textContent = ' 已复制'
-                    console.log(trigger.textContent);
+                    trigger.nextElementSibling.textContent = ' 已复制'
                     return trigger
                 }
             })

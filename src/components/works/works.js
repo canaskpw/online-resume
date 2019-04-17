@@ -1,4 +1,5 @@
 import VanillaTilt from 'vanilla-tilt'
+import Card from '@/components/card/card.vue'
 
 export default {
     data(){
@@ -7,48 +8,18 @@ export default {
         }
     },
     methods:{
-        showContact(){
-            MessageBox({
-                title: '点击复制联系方式',
-                message: 
-                `
-                    <div class='contactList'>
-                        <span class='m-bold'>email: </span>
-                        <span class='m-hightlight m-pointer content' id='email'>cyitao@foxmail.com</span>
-                        <span></span>
-                    </div>
-                    <div class='contactList'>
-                        <span class='m-bold'>QQ: </span>
-                        <span class='m-hightlight m-pointer content' id='qq'>285345240</span>
-                        <span></span>
-                    </div>
-                    <div class='contactList'>
-                        <span class='m-bold'>phone & wechat: </span> 
-                        <span class='m-hightlight m-pointer content' id='phone'>17767212383</span>
-                        <span></span>
-                    </div>
-                `,
-                dangerouslyUseHTMLString: true,
-            }).catch(() => {})
-            new Clipboard('.contactList .content', {
-                target: function(trigger) {
-                    let copied = trigger.nextElementSibling
-                    copied.textContent = ' 已复制'
-                    console.log(trigger.textContent);
-                    return trigger
-                }
-            })
-            
-        },
+
     },
     mounted(){
-        let avatar = document.querySelector(".avatar")
-        VanillaTilt.init(avatar, {
-            glare: true,
-        });
-        // let pdf = document.querySelector(".pdf")
-        // VanillaTilt.init(pdf,{
-
-        // });
-      },
+        let cards = document.querySelectorAll(".card")
+        for (const card of cards) {
+            VanillaTilt.init(card, {
+                glare: true,
+                scale: 1.5,
+            })
+        }
+    },
+    components: {
+        Card,
+    }
 }

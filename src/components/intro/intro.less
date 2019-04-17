@@ -74,10 +74,11 @@
                         margin-top: 30%;
                         .pdf{
                             cursor: pointer;
+                            margin-right: 20px;
                         }
                         .contact{
                             cursor: pointer;
-                            margin-left: 20px;
+                            margin-right: 40px;
                         }
                     }
                     .suggestion{
@@ -92,7 +93,7 @@
                     background-repeat: no-repeat;
                     border-radius: 50%;
                     // background-image: url(/src/static/img/avatar.jpg);
-                    background-image: url(../../static/img/avatar.jpg);
+                    background-image: url(/static/img/avatar.jpg);
                     position: relative;
                     margin: 50px 0;
                     &::before{
@@ -136,7 +137,7 @@
                 top: 50%;
                 border: @gold dashed 2px;
                 // background-image: url(/src/static/img/bluebg.jpg);
-                background-image: url(../../static/img/bluebg.jpg);
+                background-image: url(/static/img/bluebg.jpg);
                 filter: grayscale(0.5) opacity(0.5);
                 background-size: contain;
                 pointer-events: none;
@@ -153,3 +154,22 @@
         }
     }
 }
+
+
+.contactList{
+    display: flex;
+    & + .contactList{
+        padding: 10px 0 0 0;
+    }
+    .name{
+        width: 40%;
+    }
+    .content + span{
+        padding-left: 10px;
+    }
+}
+
+
+
+
+

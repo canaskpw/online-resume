@@ -11,7 +11,7 @@
         <section class="box-wrapper">
           <div class="contentBox">
             <div class="content">
-              Section3
+              
             </div>
           </div>
         </section>
