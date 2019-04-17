@@ -16,6 +16,15 @@
           </div>
         </section>
       </div>
+      <div class="section" >
+        <section class="box-wrapper">
+          <div class="contentBox">
+            <div class="content">
+              
+            </div>
+          </div>
+        </section>
+      </div>
         <!-- <button class="prev" @click="$refs.fullpage.api.moveSectionUp() or moveSectionDown()">Prev</button> -->
     </full-page>
   </div>

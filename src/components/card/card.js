@@ -2,11 +2,17 @@
 
 export default{
     props: {
-        text: String,
-        src: String,
+        title: String,
+        imgsrc: String,
+        intro: Object,
     },
-    mounted(){
-        console.log(this.src);
+    computed: {
+        keywords(){
+            return this.intro === undefined? '': this.intro.keywords
+        },
+        description(){
+            return this.intro === undefined?'': this.intro.description
+        },
     }
 }
 

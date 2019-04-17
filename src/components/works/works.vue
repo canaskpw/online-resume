@@ -6,15 +6,16 @@
                     <h1>作品展示</h1>
                 </div>
                 <div class="cards">
-                    <div class="card">
-                        <Card src='/static/img/works/music-admin.jpg' text='网易云管理界面'></Card>
+                    <!-- <div class="card" v-for="card in cards" :key="card.work.name"></div> -->
+                    <div class="card" v-for="(work, index) in works" :key="index">
+                        <Card :imgsrc='work.imgsrc' :title='work.title' :intro='work.intro'></Card>
                     </div>
-                    <div class="card">
+                    <!-- <div class="card">
                         <Card text='多人共享博客'></Card>
                     </div>
                     <div class="card">
                         <Card text='多人共享博客'></Card>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
