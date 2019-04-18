@@ -20,11 +20,9 @@
                             <span class="pdf">
                                 <Button textContent='PDF简历下载' href='../../static/resume.pdf'></Button>
                             </span>
-                            <span class="contact" @click="showContact">
-                                <Button textContent='联系方式' href='#'></Button>
+                            <span class="contact" @click.stop="showContact">
+                                <Button textContent='联系方式'></Button>
                             </span>
-                            <!-- <a class="pdf"  href='../../static/resume.pdf'>PDF简历下载</a>
-                            <a class="contact" @click="showContact" href="#">联系方式</a> -->
                         </div>
                         <span class="suggestion">下滑查看更多内容</span>
                     </div>

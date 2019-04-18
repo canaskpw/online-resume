@@ -7,7 +7,7 @@
                 </header>
                 <main class="cards">
                     <div class="card" v-for="(work, index) in works" :key="index">
-                        <Card :imgsrc='work.imgsrc' :title='work.title' :previewLink='work.previewLink' :intro='work.intro' :isQRCode='work.isQRCode'></Card>
+                        <Card :imgsrc='work.imgsrc' :title='work.title' :intro='work.intro'></Card>
                     </div>
                 </main>
             </div>
@@ -15,9 +15,8 @@
     </section>
 </template>
 
-<style lang="less" src='./works.less'></style>
 <style lang="less" src='../../assets/base.less' ></style>
-<script src='./works.js'></script>
+<script src='./works2.js'></script>
 
 
 

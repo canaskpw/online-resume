@@ -8,13 +8,7 @@
         <Works></Works>
       </div>
       <div class="section" >
-        <section class="box-wrapper">
-          <div class="contentBox">
-            <div class="content">
-              
-            </div>
-          </div>
-        </section>
+        <Works2></Works2>
       </div>
       <div class="section" >
         <section class="box-wrapper">
