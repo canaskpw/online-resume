@@ -18,7 +18,7 @@
             </div>
           </div>
         </section>
-      </div>
+      </div> 
         <!-- <button class="prev" @click="$refs.fullpage.api.moveSectionUp() or moveSectionDown()">Prev</button> -->
     </full-page>
   </div>
