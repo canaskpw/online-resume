@@ -11,13 +11,7 @@
         <Works2></Works2>
       </div>
       <div class="section" >
-        <section class="box-wrapper">
-          <div class="contentBox">
-            <div class="content">
-              
-            </div>
-          </div>
-        </section>
+        <Skills></Skills>
       </div> 
         <!-- <button class="prev" @click="$refs.fullpage.api.moveSectionUp() or moveSectionDown()">Prev</button> -->
     </full-page>

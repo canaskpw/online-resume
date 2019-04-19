@@ -1,8 +1,8 @@
 <template>
     <article>
-        <div class="img-wrapper">
+        <a class="img-wrapper" :href='previewLink' target="_blank">
             <img :src="imgsrc"  alt="作品图片" v-if="imgsrc">
-        </div>
+        </a>
         <header>{{title}}</header>
         <section class="introduction">
             <div class="keywords" v-html="keywords"></div>

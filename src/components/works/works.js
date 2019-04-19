@@ -6,6 +6,16 @@ export default {
         return {
             works: [
                 {
+                    imgsrc: '/static/img/works/blog.jpg',
+                    title: '多人共享博客',
+                    intro: {
+                        keywords: '关键词：<span class="m-pink">vue-cli、vue-router、vuex、axios、es6、element-ui</span>',
+                        description: '完全使用原生JS实现，七牛云API实现媒体文件存储，LeanCloud实现数据库功能。',
+                    },
+                    previewLink: 'https://inkymountain.github.io/blog/dist',
+                    isQRCode: false,
+                },
+                {
                     imgsrc: '/static/img/works/music-admin.jpg',
                     title: '网易云-管理界面(PC端)',
                     intro: {
@@ -24,16 +34,6 @@ export default {
                     },
                     previewLink: 'http://chenyitao.top/music/src/',
                     isQRCode: true,
-                },
-                {
-                    imgsrc: '/static/img/works/blog.jpg',
-                    title: '多人共享博客',
-                    intro: {
-                        keywords: '关键词：<span class="m-pink">vue-cli、vue-router、vuex、axios、es6、element-ui</span>',
-                        description: '完全使用原生JS实现，七牛云API实现媒体文件存储，LeanCloud实现数据库功能。',
-                    },
-                    previewLink: 'http://chenyitao.top/music/src/',
-                    isQRCode: false,
                 },
         ]
         }

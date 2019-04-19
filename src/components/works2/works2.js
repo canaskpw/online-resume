@@ -10,9 +10,9 @@ export default {
                     title: '画板',
                     intro: {
                         keywords: '关键词：<span class="m-red  m-bold">原生JS 七牛云 LeanCloud</span>',
-                        description: '完全使用原生JS实现，<span class="m-red m-bold">七牛云API</span>实现媒体文件存储，<span class="m-red m-bold">LeanCloud</span>实现数据库功能。',
+                        description: '完全使用原生JS实现，<span class="m-pink">七牛云API</span>实现媒体文件存储，<span class="m-pink">LeanCloud</span>实现数据库功能。',
                     },
-                    previewLink: 'http://chenyitao.top/music/src/admin.html',
+                    previewLink: 'https://inkymountain.github.io/Drawing-board/',
                     isQRCode: false,
                 },
                 {
@@ -22,7 +22,7 @@ export default {
                         keywords: '关键词：<span class="m-red  m-bold">原生JS 七牛云 LeanCloud</span>',
                         description: '完全使用原生JS实现，七牛云API实现媒体文件存储，LeanCloud实现数据库功能。',
                     },
-                    previewLink: 'http://chenyitao.top/music/src/admin.html',
+                    previewLink: 'https://inkymountain.github.io/Dynamic-Resume/',
                     isQRCode: false,
                 },
                 {
@@ -32,7 +32,7 @@ export default {
                         keywords: '关键词：<span class="m-red  m-bold">vue-cli、vue-router、vuex、axios、es6、element-ui</span>',
                         description: '完全使用原生JS实现，七牛云API实现媒体文件存储，LeanCloud实现数据库功能。',
                     },
-                    previewLink: 'http://chenyitao.top/music/src/admin.html',
+                    previewLink: 'https://inkymountain.github.io/navigation/',
                     isQRCode: false,
                 },
         ]

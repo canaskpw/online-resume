@@ -7,7 +7,7 @@
                 </header>
                 <main class="cards">
                     <div class="card" v-for="(work, index) in works" :key="index">
-                        <Card :imgsrc='work.imgsrc' :title='work.title' :intro='work.intro'></Card>
+                        <Card :imgsrc='work.imgsrc' :title='work.title' :previewLink='work.previewLink' :intro='work.intro' :isQRCode='work.isQRCode'></Card>
                     </div>
                 </main>
             </div>
