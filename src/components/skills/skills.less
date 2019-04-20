@@ -21,17 +21,44 @@
             font-family: '等线';
             width: 50%;
             height: 100%;
-            padding: 80px 40px;
-            font-size: 20px;
-            font-weight: bold;
-            white-space: pre-line;
+            padding: 40px;
+            font-size: 18px;
+            line-height: 1.6;
         }
+
         .left{
             background-color: @darkBlue;
-            color: white;
+            margin-right: 20px;
+            p::before{
+                border: solid white 1px;
+            }
         }
         .right{
+            background-color: @wholeBackground;
             color: @darkBlue;
+            font-weight: bold;
+            p::before{
+                border: solid @darkBlue 1px;
+            }
+        }
+        p{
+            margin: 10px 0 10px 20px;
+            position: relative;
+            &::before{
+                content: '';
+                display: block;
+                height: 5px;
+                width: 5px;
+                border: solid white 1px;
+                position: absolute;
+                border-radius: 50%;
+                left: -15px;
+                top: 16px;
+                transform: translateY(-50%);
+            }
+            .lowerLineHeight{
+                line-height: 1;
+            }
         }
     }
 }

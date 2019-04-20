@@ -1,7 +1,6 @@
 import VanillaTilt from 'vanilla-tilt'
 import {MessageBox} from 'element-ui'
 import Clipboard from 'clipboard'
-import Button from '@/components/button.vue'
 
 export default {
     data(){
@@ -45,7 +44,6 @@ export default {
     mounted(){
         let avatar = document.querySelector(".avatar")
         VanillaTilt.init(avatar, {
-            glare: true,
             scale: 1.3,
         });
         // let pdf = document.querySelector(".pdf")
@@ -54,6 +52,6 @@ export default {
         // });
       },
       components: {
-          Button,
+        
       }
 }

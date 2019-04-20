@@ -5,17 +5,22 @@
 
 <style lang="less" scoped>
 @import '../assets/var.less';
-    a{
+    .button{
         padding: 10px 10px;
-        background-color: rgb(238, 231, 215);
+        background-color: rgba(238, 231, 215, 0.9);
         border-radius: 5px;
         font-size: 20px;
         cursor: pointer;
-        transition: all 0.1s;
+        transition: all 0.2s;
         color: @gold;
         &:hover{
             box-shadow: @goldShadow;
         }
+    }
+    .highlight{
+        background-color: rgb(235, 235, 235);
+        color: @gold;
+        padding: 3px 4px;
     }
 </style>
 

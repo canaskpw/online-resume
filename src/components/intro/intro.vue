@@ -14,14 +14,14 @@
                                 <use xlink:href="#icon-nan"></use>
                             </svg>
                         </span>
-                        <span class="target">岗位：前端工程师</span>
+                        <span class="target">意向岗位：前端工程师</span>
                         <span class="collage">浙江工业大学</span>
                         <div class="buttons">
                             <span class="pdf">
-                                <Button textContent='PDF简历下载' href='../../static/resume.pdf'></Button>
+                                <Button :classObject='{button: true}' textContent='PDF简历下载' href='../../static/resume.pdf'></Button>
                             </span>
                             <span class="contact" @click.stop="showContact">
-                                <Button textContent='联系方式'></Button>
+                                <Button :classObject='{button: true}' textContent='联系方式'></Button>
                             </span>
                         </div>
                         <span class="suggestion">下滑查看更多内容</span>

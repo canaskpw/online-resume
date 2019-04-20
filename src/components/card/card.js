@@ -1,4 +1,4 @@
-import Button from '@/components/button.vue'
+
 
 export default{
     props: {
@@ -19,8 +19,8 @@ export default{
         },
     },
     components: {
-        Button,
-    }
+        
+    },
 }
 
 

@@ -13,6 +13,10 @@
             grid-template-columns: 20% 1fr 20%;
             grid-template-areas: 'blank-left intro blank-right';
             min-width: 800px;
+            @media screen and (max-width:450px) {
+                min-width: 200px;
+                grid-template-columns: 2% 1fr 2%;
+            }
             .blank-left{
                 grid-area: blank-left;
             }
@@ -30,16 +34,22 @@
                     align-items: center;
                     display: flex;
                     flex-direction: column;
-                    font-family: 'stxinwei','Blackadder ITC','algerian';
+                    // font-family: 'stxinwei','Blackadder ITC','algerian';
                     color: @gold;
                     font-size: 25px;
                     z-index: 1;
+                    @media screen and (max-width:450px) {
+                        font-size: 20px;
+                    }
                     span{
                         margin: 10px 0;
                     }
                     .target{
                         font-size: 40px;
                         font-weight: bold;
+                        @media screen and (max-width:450px) {
+                            font-size: 20px;
+                        }
                     }
                     .self{
                         font-size: 40px;
@@ -55,7 +65,7 @@
                     }
                     
                     .buttons{
-                        margin-top: 30%;
+                        margin-top: 10%;
                         .pdf{
                             cursor: pointer;
                             margin-right: 20px;
@@ -66,7 +76,7 @@
                         }
                     }
                     .suggestion{
-                        margin-top: 20%;
+                        margin-top: 10%;
                     }
                 }
                 .avatar{
@@ -92,9 +102,6 @@
                         border: @gold dashed 2px;
                         border-radius: 50%;
                         transition: all 0.5s;
-                    }
-                    .js-tilt-glare{
-                        border-radius: 50%;
                     }
                     &:hover::before{
                         box-shadow: @goldShadow;
@@ -125,6 +132,10 @@
                 filter: grayscale(0.5) opacity(0.5);
                 background-size: contain;
                 pointer-events: none;
+                @media screen and (max-width:450px) {
+                    width: 150vw;
+                    height: 150vw;
+                }
             }
 
             @keyframes rotate{
