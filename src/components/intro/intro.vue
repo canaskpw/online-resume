@@ -18,7 +18,8 @@
                         <span class="collage">浙江工业大学</span>
                         <div class="buttons">
                             <span class="pdf">
-                                <Button :classObject='{button: true}' textContent='PDF下载' href='../../static/resume.pdf'></Button>
+                                <Button :classObject='{button: true}' textContent='PDF下载' 
+                                    href='https://inkymountain.github.io/online-resume/陈亦涛-前端-17767212383-2019.pdf'></Button>
                             </span>
                             <span class="contact" @click.stop="showContact">
                                 <Button :classObject='{button: true}' textContent='联系方式'></Button>
