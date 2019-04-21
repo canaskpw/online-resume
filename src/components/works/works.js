@@ -6,7 +6,7 @@ export default {
         return {
             works: [
                 {
-                    imgsrc: require('../../assets/blog.jpg'),
+                    imgsrc: require('../../static/img/works/blog.jpg'),
                     title: '多人共享博客',
                     intro: {
                         keywords: '关键词：<span class="m-pink">vue-cli、vue-router、vuex、axios、es6、element-ui</span>',
@@ -20,7 +20,7 @@ export default {
                     isQRCode: false,
                 },
                 {
-                    imgsrc: '/static/img/works/music-admin.jpg',
+                    imgsrc: require('../../static/img/works/music-admin.jpg'),
                     title: '网易云-管理界面 <span class="m-pink">PC端</span>',
                     intro: {
                         keywords: '关键词：<span class="m-pink">原生JS 七牛云 LeanCloud</span>',
@@ -31,7 +31,7 @@ export default {
                     isQRCode: false,
                 },
                 {
-                    imgsrc: '/static/img/works/music-client.jpg',
+                    imgsrc: require('../../static/img/works/music-client.jpg'),
                     title: '网易云-用户界面 <span class="m-pink">手机端</span>',
                     intro: {
                         keywords: '关键词：<span class="m-pink">原生JS MVC 发布订阅</span>',
