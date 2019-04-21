@@ -52,27 +52,30 @@
                         }
                     }
                     .self{
-                        font-size: 40px;
+                        font-size: 30px;
                         font-weight: bold;
                         color: white;
-                        .age{
-                            font-size: 30px;
-                        }
+                        // .age{
+                        //     font-size: 30px;
+                        // }
                         
-                        svg{
-                            font-size: 20px;
-                        }
+                        // svg{
+                        //     font-size: 20px;
+                        // }
                     }
                     
                     .buttons{
                         margin-top: 10%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         .pdf{
                             cursor: pointer;
-                            margin-right: 20px;
+                            margin: 0 10px 0 0;
                         }
                         .contact{
                             cursor: pointer;
-                            margin-right: 40px;
+                            margin: 0 20px 0 10px;
                         }
                     }
                     .suggestion{
@@ -117,7 +120,7 @@
             }
             .dashedCircle{
                 transition: all 0.5s;
-                animation: rotate 50s linear infinite;
+                animation: rotate 60s linear infinite;
                 animation-play-state: paused;
                 transform-origin: 0 0;
                 height: 55vw;
@@ -151,18 +154,6 @@
 }
 
 
-.contactList{
-    display: flex;
-    & + .contactList{
-        padding: 10px 0 0 0;
-    }
-    .name{
-        width: 40%;
-    }
-    .content + span{
-        padding-left: 10px;
-    }
-}
 
 
 

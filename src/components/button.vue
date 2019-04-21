@@ -13,6 +13,7 @@
         cursor: pointer;
         transition: all 0.2s;
         color: @gold;
+        display: inline-block;
         @media screen and (max-width: 500px){
             font-size: 12px;
             padding: 3px;

@@ -18,7 +18,7 @@
                         <span class="collage">浙江工业大学</span>
                         <div class="buttons">
                             <span class="pdf">
-                                <Button :classObject='{button: true}' textContent='PDF简历下载' href='../../static/resume.pdf'></Button>
+                                <Button :classObject='{button: true}' textContent='PDF下载' href='../../static/resume.pdf'></Button>
                             </span>
                             <span class="contact" @click.stop="showContact">
                                 <Button :classObject='{button: true}' textContent='联系方式'></Button>

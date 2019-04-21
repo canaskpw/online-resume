@@ -8,7 +8,7 @@
                     <div class="text">
                         <p>
                             2018 年 7 月毕业于浙江工业大学药学专业。
-                            毕业后从事雅培心脏起搏器技术岗位。
+                            毕业后从事雅培心脏起搏器技术岗位至今。
                         </p>
                         <p>
                             2019年1月开始利用业余时间学习前端，拥有较强的学习能力，3个月的业余时间掌握前端必要知识，并完成作品及该简历制作。
@@ -16,6 +16,9 @@
                         <p>
                             前端于我，是美与理性的结合，新技术的接触总使我兴奋不已。Bug使我成长，优雅的页面是成长的果实。
                         </p>
+                        <styledText textContent='Phone&Wechat: 17767212383' :classObject='{highlight: true, blue: true}'></styledText>
+                        <styledText textContent='Mail: cyitao@foxmail.com' :classObject='{highlight: true, blue: true}'></styledText>
+                        <styledText textContent='QQ: 285345240' :classObject='{highlight: true, blue: true}'></styledText>
                     </div>
                     <footer></footer>
                 </main>

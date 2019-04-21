@@ -5,6 +5,14 @@
   color: #2c3e50;
   background-color: @wholeBackground;
 }
+
+// for print
+// .section{
+//   height: 100vh;
+// }
+// p{
+//   line-height: 2 !important;
+// }
 #target{
     height: 200px;
     width: 200px;
@@ -33,3 +41,17 @@
       }
     }
   }
+
+.contactList{
+  display: flex;
+  & + .contactList{
+      padding: 10px 0 0 0;
+  }
+  .name{
+      display: inline-block;
+      width: 40%;
+  }
+  .content + span{
+      padding-left: 10px;
+  }
+}
