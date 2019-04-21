@@ -5,6 +5,8 @@ import Clipboard from 'clipboard'
 export default {
     data(){
         return {
+            avatarUrl: 'background-image: url(' + require('../../static/img/avatar.jpg') + ');',
+            bluebgUrl: 'background-image: url(' + require('../../static/img/bluebg.jpg') + ');',
 
         }
     },

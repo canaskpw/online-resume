@@ -2,10 +2,10 @@
     <section class="box-wrapper">
         <div class="contentBox">
             <div class="content">
-                <div class="dashedCircle" ></div>
+                <div class="dashedCircle" :style="bluebgUrl"></div>
                 <div class="blank-left"></div>
                 <div class="intro">
-                    <div class="avatar"></div>
+                    <div class="avatar" :style="avatarUrl"></div>
                     <div class="text">
                         <span class="self">
                             <span class="name">陈亦涛</span>  
@@ -35,6 +35,7 @@
 </template>
 
 <style lang="less" scoped src='./intro.less'></style>
+
 <style lang="less" src='../../assets/base.less' ></style>
 <script src='./intro.js'></script>
 
