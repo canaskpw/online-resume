@@ -21,7 +21,7 @@
                                 <Button :classObject='{button: true}' textContent='PDF下载' 
                                     href='https://inkymountain.github.io/online-resume/陈亦涛-前端-17767212383-2019.pdf'></Button>
                             </span>
-                            <span class="contact" @click.stop="showContact">
+                            <span class="contact" @click.stop="showContact"> 
                                 <Button :classObject='{button: true}' textContent='联系方式'></Button>
                             </span>
                         </div>
