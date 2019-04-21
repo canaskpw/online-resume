@@ -17,6 +17,9 @@
         justify-content: space-between;
         width: 100%;
         height: 100%;
+        @media screen and (max-width: 500px){
+            flex-direction: column;
+        }
         .skillBlock{
             font-family: '等线';
             width: 50%;
@@ -24,6 +27,14 @@
             padding: 40px;
             font-size: 18px;
             line-height: 1.6;
+            @media screen and (max-width: 500px){
+                height: 50%;
+                width: 100%;
+                font-size: 12px;
+                line-height: 1.5;
+                padding: 10px;
+                border: @darkBlue 5px solid;
+            }
         }
 
         .left{
@@ -55,6 +66,12 @@
                 left: -15px;
                 top: 16px;
                 transform: translateY(-50%);
+                @media screen and (max-width: 500px){
+                    transform: translateY(-50%);
+                    top: 8px;
+                    height: 3px;
+                    width: 3px;
+                }
             }
             .lowerLineHeight{
                 line-height: 1;

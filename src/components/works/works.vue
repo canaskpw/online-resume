@@ -6,7 +6,7 @@
                     <h1>作品展示</h1>
                 </header>
                 <main class="cards">
-                    <div class="card" v-for="(work, index) in works" :key="index">
+                    <div class="card" v-for="(work, index) in works" :key="index" >
                         <Card :imgsrc='work.imgsrc' :title='work.title' :previewLink='work.previewLink' :intro='work.intro' :isQRCode='work.isQRCode'></Card>
                     </div>
                 </main>

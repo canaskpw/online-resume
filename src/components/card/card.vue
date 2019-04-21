@@ -9,8 +9,8 @@
             <p class="description" v-html="description"></p>
         </section>
         <footer class="preview">
-            <Button v-if="!isQRCode" :classObject='{button: true}' textContent='预览' :href='previewLink'></Button>
-            <img v-if="isQRCode" src="/static/img/musicClient-preview.jpg" alt="">
+            <Button v-if="!isQRCode || innerWidth <= 500" :classObject='{button: true}' textContent='预览' :href='previewLink'></Button>
+            <img v-if="isQRCode  && innerWidth > 500" src="/static/img/musicClient-preview.jpg" alt="">
         </footer>
     </article>
 </template>

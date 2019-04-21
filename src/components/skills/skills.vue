@@ -16,7 +16,7 @@
                         </p>
                         <p>
                             掌握<styledText :classObject='{highlight: true, blue: true}' textContent='CSS3动画' >
-                            </styledText><styledText :classObject='{highlight: true, blue: true}' textContent='过渡' ></styledText>
+                            </styledText><styledText :classObject='{highlight: true, blue: true}' textContent='过渡'></styledText>
                             <styledText :classObject='{highlight: true, blue: true}' textContent='垂直居中' ></styledText>等常用技术。
                         </p>
                         <p>

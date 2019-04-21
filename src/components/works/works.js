@@ -24,7 +24,8 @@ export default {
                     title: '网易云-管理界面 <span class="m-pink">PC端</span>',
                     intro: {
                         keywords: '关键词：<span class="m-pink">原生JS 七牛云 LeanCloud</span>',
-                        description: '未使用框架。具备文件的<span class="m-pink">上传与编辑</span>功能，<span class="m-pink">七牛云API</span>实现媒体文件存储，<span class="m-pink">LeanCloud</span>实现数据库功能。',
+                        description: '使用原生JS实现了音乐网站的后台管理页面。具备文件的<span class="m-pink">上传与编辑</span>功能' + 
+                            '，<span class="m-pink">七牛云API</span>实现媒体文件存储，<span class="m-pink">LeanCloud</span>实现数据库功能。',
                     },
                     previewLink: 'http://chenyitao.top/music/src/admin.html',
                     isQRCode: false,
@@ -33,24 +34,30 @@ export default {
                     imgsrc: '/static/img/works/music-client.jpg',
                     title: '网易云-用户界面 <span class="m-pink">手机端</span>',
                     intro: {
-                        keywords: '关键词：<span class="m-pink">原生JS 七牛云 LeanCloud</span>',
-                        description: '未使用框架。具备文件的上传与编辑功能，七牛云API实现媒体文件存储，LeanCloud实现数据库功能。',
+                        keywords: '关键词：<span class="m-pink">原生JS MVC 发布订阅</span>',
+                        description: '使用原生JS实现了音乐网站的客户端页面，包含<span class="m-pink">首页、歌单、播放</span>等界面。' + 
+                            '运用了<span class="m-pink">MVC</span>设计模式，模块之间使用<span class="m-pink">EventHub订阅</span>的模式进行通信。' + 
+                            '使用<span class="m-pink">audio标签</span>实现音乐的播放、暂停、进度条等功能。',
                     },
                     previewLink: 'http://chenyitao.top/music/src/',
                     isQRCode: true,
                 },
-        ]
+            ],
         }
     },
     methods:{
 
     },
     mounted(){
-        let cards = document.querySelectorAll(".card")
-        for (const card of cards) {
-            VanillaTilt.init(card, {
-                scale: 1.2,
-            })
+        if (this.innerWidth >= 500) {
+            let cards = document.querySelectorAll(".card")
+            for (const card of cards) {
+                VanillaTilt.init(card, {
+                    scale: 1.1,
+                    glare: true,
+                    "max-glare": 1,
+                })
+            }
         }
     },
     components: {

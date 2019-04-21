@@ -1,6 +1,11 @@
 
 
 export default{
+    data(){
+        return {
+            innerWidth: window.innerWidth,
+        }
+    },
     props: {
         title: String,
         imgsrc: String,

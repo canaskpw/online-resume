@@ -12,6 +12,11 @@
         display: inline;
         font-weight: bold;
         margin: 0 5px;
+        @media screen and (max-width: 500px){
+            padding: 0 3px;
+            margin: 1px;  
+            border-radius: 3px;
+        }
     }
     .pink{
         color: rgb(245, 149, 149);
@@ -25,18 +30,10 @@
         margin: 5px 0;
         font-weight: bold;
         display: inline-block;
-        // &::before{
-        //     content: '';
-        //     display: block;
-        //     position: absolute;
-        //     left: 50%;
-        //     bottom: 15px;
-        //     transform: translateX(-50%);
-        //     background-color: rgba(153, 216, 241, 0.4);
-        //     height: 5px;
-        //     border-radius: 5px;
-        //     width: 100%;
-        // }
+        @media screen and (max-width: 500px){
+            font-size: 12px;
+            margin: 2px;
+        }
     }
     .title-left{
         color: @gold;

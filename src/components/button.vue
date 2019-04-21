@@ -13,6 +13,10 @@
         cursor: pointer;
         transition: all 0.2s;
         color: @gold;
+        @media screen and (max-width: 500px){
+            font-size: 12px;
+            padding: 3px;
+        }
         &:hover{
             box-shadow: @goldShadow;
         }

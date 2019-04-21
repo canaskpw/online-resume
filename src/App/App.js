@@ -3,7 +3,9 @@ import Works from "@/components/works/works.vue";
 import Works2 from "@/components/works2/works2.vue";
 import Skills from "@/components/skills/skills.vue";
 import styledText from "@/components/styledText.vue";
+import Experience from "@/components/experience/experience.vue";
 import Button from "@/components/Button.vue";
+import Card from '@/components/card/card.vue'
 import Vue from 'vue'
 
 Vue.component('styledText', styledText)
@@ -15,7 +17,7 @@ export default {
       return {
         options: {
           menu: '#menu',
-          anchors: ['intro', 'works1', 'works2', 'skills'],
+          anchors: ['intro', 'works1', 'works2', 'skills', 'Experience'],
         },
       }
     },
@@ -24,5 +26,7 @@ export default {
         Works,
         Works2,
         Skills,
+        Experience,
+        Card,
     },
   }
