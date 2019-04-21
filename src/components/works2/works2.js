@@ -5,7 +5,7 @@ export default {
         return {
             works: [
                 {
-                    imgsrc: '/static/img/works/drawing-board.jpg',
+                    imgsrc: '../../../static/img/works/drawing-board.jpg',
                     title: '画板',
                     intro: {
                         keywords: '关键词：<span class="m-pink">canvas 画板</span>',
@@ -16,7 +16,7 @@ export default {
                     isQRCode: false,
                 },
                 {
-                    imgsrc: '/static/img/works/dynamic-resume.jpg',
+                    imgsrc: '../../../static/img/works/dynamic-resume.jpg',
                     title: '动效简历',
                     intro: {
                         keywords: '关键词：<span class="m-pink">原生JS 动效 markdown</span>',
@@ -28,7 +28,7 @@ export default {
                     isQRCode: false,
                 },
                 {
-                    imgsrc: '/static/img/works/nav.jpg',
+                    imgsrc: '../../../static/img/works/nav.jpg',
                     title: '网址导航',
                     intro: {
                         keywords: '关键词：<span class="m-pink">键盘导航 随机壁纸</span>',
