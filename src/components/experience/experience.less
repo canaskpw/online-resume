@@ -25,6 +25,7 @@
             margin-bottom: 5px;
             min-width: 100%;
             margin: 10px;
+            box-shadow: none;
         }
         .paragraph{
             flex: 1 1 auto;
@@ -36,8 +37,10 @@
             font-weight: bold;
             color: @darkBlue;
             padding: 10px;
+            @media screen and (max-width: 500px){
+                padding: 10px 30px;
+            }
             p{
-                text-indent: 40px;
                 line-height: 3;
                 @media screen and (max-height: 600px) {
                     line-height: 1.8;
@@ -49,6 +52,9 @@
                 @media screen and (max-height: 500px) and (max-width: 600px) {
                     line-height: 1.2;
                     font-size: 12px;
+                }
+                @media screen and (max-width: 500px){
+                    line-height: 2.0;
                 }
             }
             @media screen and (max-width: 500px){

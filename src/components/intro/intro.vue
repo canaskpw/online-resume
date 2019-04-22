@@ -77,7 +77,7 @@
                                     <use xlink:href="#icon-salary"></use>
                                 </svg>
                             </span>
-                            <span class="text">预期薪资 9-12k</span><span class='copy'></span>
+                            <span class="text">期望薪资 9-12k</span><span class='copy'></span>
                         </li>
                     </ul>
                     <span class="suggestion">下滑查看更多内容</span>
