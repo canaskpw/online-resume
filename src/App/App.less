@@ -25,6 +25,9 @@
 .box-wrapper{  /*金白蓝大体框架*/
   padding: 2% 5%;
   height: 100%;
+  @media screen and (max-width: 1200px) {
+      padding: 1%;
+  }
   @media screen and (max-width: 500px) {
       padding: 2%;
   }
@@ -45,16 +48,3 @@
     }
   }
 
-.contactList{
-  display: flex;
-  & + .contactList{
-      padding: 10px 0 0 0;
-  }
-  .name{
-      display: inline-block;
-      width: 40%;
-  }
-  .content + span{
-      padding-left: 10px;
-  }
-}

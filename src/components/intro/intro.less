@@ -10,7 +10,7 @@
         .content{
             display: grid;
             grid-template-rows: 1fr;
-            grid-template-columns: 20% 1fr 20%;
+            grid-template-columns: 25% 1fr 25%;
             grid-template-areas: 'blank-left intro blank-right';
             min-width: 800px;
             @media screen and (max-width:450px) {
@@ -26,62 +26,63 @@
             .intro{
                 grid-area: intro;
                 display: flex;
+                height: 100%;
                 flex-direction: column;
+                justify-content: space-around;
                 align-items: center;
-                .text{
+                .detail{
                     // background-color: #fff;
-                    flex: 1 1 auto;
-                    align-items: center;
+                    align-items: flex-start;
                     display: flex;
                     flex-direction: column;
+                    font-weight: bold;
                     // font-family: 'stxinwei','Blackadder ITC','algerian';
                     color: @gold;
                     font-size: 25px;
                     z-index: 1;
-                    @media screen and (max-width:450px) {
-                        font-size: 20px;
+                    margin-bottom: 10px;
+                    padding: 0 20px;
+                    border-left: @gold solid 3px;
+                    @media screen and (max-width: 500px) {
+                        font-size: 16px;
                     }
-                    span{
-                        margin: 10px 0;
-                    }
-                    .target{
-                        font-size: 40px;
-                        font-weight: bold;
-                        @media screen and (max-width:450px) {
-                            font-size: 20px;
+                    li.condition{
+                        padding: 4px 10px;
+                        border-radius: 3px;
+                        width: 100%;
+                        transition: all 0.2s;
+                        position: relative;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: rgba(151, 221, 248, 0.7);
+                            color: @darkBlue;
                         }
-                    }
-                    .self{
-                        font-size: 30px;
-                        font-weight: bold;
-                        color: white;
-                        // .age{
-                        //     font-size: 30px;
-                        // }
-                        
-                        // svg{
-                        //     font-size: 20px;
-                        // }
-                    }
-                    
-                    .buttons{
-                        margin-top: 10%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        .pdf{
-                            cursor: pointer;
-                            margin: 0 10px 0 0;
+                        .category{
+                            margin-right: 20px;
                         }
-                        .contact{
-                            cursor: pointer;
-                            margin: 0 20px 0 10px;
+                        .copy{
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: -80px;
+                            color: white;
+                            @media screen and (max-width: 500px) {
+                                right: -50px;
+                            }
                         }
-                    }
-                    .suggestion{
-                        margin-top: 10%;
                     }
                 }
+
+                .suggestion{
+                    display: flex;
+                    align-items: flex-end;
+                    padding-bottom: 30px;
+                    flex: 1;
+                    @media screen and (max-width: 500px) {
+                        flex: 0;
+                    }
+                }
+
                 .avatar{
                     width: 80px;
                     height: 80px;
@@ -136,9 +137,8 @@
                 filter: grayscale(0.5) opacity(0.5);
                 background-size: contain;
                 pointer-events: none;
-                @media screen and (max-width:450px) {
-                    width: 150vw;
-                    height: 150vw;
+                @media screen and (max-width:500px) {
+                    display: none;
                 }
             }
 
