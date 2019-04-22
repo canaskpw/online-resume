@@ -17,6 +17,9 @@
             margin: 1px;  
             border-radius: 3px;
         }
+        @media screen and (max-height: 600px) {
+            padding: 0 1px;
+        }
     }
     .pink{
         color: rgb(245, 149, 149);

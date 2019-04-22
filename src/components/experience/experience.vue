@@ -9,14 +9,17 @@
                             <p>
                                 2018年7月毕业于浙江工业大学药学专业,在校期间平均绩点3.0，获校级奖学金，
                                 参与浙工大勤工中心工作，致力于为学生提供免费的校内外兼职与实习中介平台。
+                                后就职于上海紫凡医疗器械有限公司。
                             </p>
                             <p>
-                                在大学期间对编程萌生兴趣，开始学习JAVA，基础语法与SSM框架。期间必不可免地接触了前端，
+                                编程之路始于大学时对JAVA的学习，接触前端后，
                                 发现界面与代码的结合，比起单纯数据库操作更令人兴奋，遂转至前端学习。
-                                毕业后就职于上海紫凡医疗器械有限公司（于杭州）。
                             </p>
                             <p>
-                                前端于我，是美与理性的结合，新技术的接触总使我兴奋不已。
+                                反复调试后，最终得到的精致界面与流畅的交互效果，是振奋人心的。
+                            </p>
+                            <p>
+                                狭小的窗口展现无限可能，这是前端区别于其他coder的独特魅力。
                             </p>
                         </div>
                         <ul class="detail">
@@ -44,12 +47,8 @@
                                 </span>
                                 <span class="text">285345240</span><span class='copy'></span>
                             </li>
-                    </ul>
-                        <!-- <styledText textContent='Phone&Wechat: 17767212383' :classObject='{highlight: true, blue: true}'></styledText>
-                        <styledText textContent='Mail: cyitao@foxmail.com' :classObject='{highlight: true, blue: true}'></styledText>
-                        <styledText textContent='QQ: 285345240' :classObject='{highlight: true, blue: true}'></styledText> -->
+                        </ul>
                     </div>
-                    <footer></footer>
                 </main>
             </div>
         </div>

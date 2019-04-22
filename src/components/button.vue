@@ -18,6 +18,14 @@
             font-size: 12px;
             padding: 3px;
         }
+        @media screen and (max-height: 600px) {
+            font-size: 15px;
+            padding: 5px;
+        }
+        @media screen and (max-height: 500px) {
+            padding: 1px;
+            font-size: 12px;
+        }
         &:hover{
             box-shadow: @goldShadow;
         }
