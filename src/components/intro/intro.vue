@@ -71,14 +71,6 @@
                             </span>
                             <span class="text">285345240</span><span class='copy'></span>
                         </li>
-                        <li class="condition" title='点击复制'>
-                            <span class="category">
-                                <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-salary"></use>
-                                </svg>
-                            </span>
-                            <span class="text">期望薪资 9-12k</span><span class='copy'></span>
-                        </li>
                     </ul>
                     <span class="suggestion">下滑查看更多内容</span>
 
