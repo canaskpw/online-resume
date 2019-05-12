@@ -26,14 +26,6 @@
                             <li class="condition" title='点击复制'>
                                 <span class="category">
                                     <svg class="icon" aria-hidden="true">
-                                        <use xlink:href="#icon-icon"></use>
-                                    </svg>
-                                </span>
-                                <span class="text">17767212383</span><span class='copy'></span>
-                            </li>
-                            <li class="condition" title='点击复制'>
-                                <span class="category">
-                                    <svg class="icon" aria-hidden="true">
                                         <use xlink:href="#icon-email"></use>
                                     </svg>
                                 </span>
