@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "clipboard": "^2.0.4",
+    "echarts": "^4.2.1",
     "element-ui": "^2.7.2",
     "vanilla-tilt": "^1.7.0",
     "vue": "^2.5.2",

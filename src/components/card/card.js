@@ -11,7 +11,7 @@ export default{
         imgsrc: String,
         intro: Object,
         previewLink: String,
-        isQRCode: Boolean,
+        isQRCode: String,
     },
     computed: {
         keywords(){

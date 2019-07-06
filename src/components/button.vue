@@ -1,5 +1,8 @@
 <template>
-    <a :href='href' target="_blank" :class='classObject'>{{textContent}}</a>    
+    <a :href='href' target="_blank" :class='classObject'>
+        <slot></slot>
+        {{textContent}}
+    </a>    
 </template>
 
 
@@ -7,7 +10,7 @@
 @import '../assets/var.less';
     .button{
         padding: 10px 10px;
-        background-color: rgba(238, 231, 215, 0.9);
+        background-color: rgba(238, 231, 215, 1);
         border-radius: 5px;
         font-size: 20px;
         cursor: pointer;

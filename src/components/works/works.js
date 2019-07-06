@@ -6,6 +6,20 @@ export default {
         return {
             works: [
                 {
+                    imgsrc: require('../../static/img/works/tomato.jpg'),
+                    title: '定个小目标 <span class="m-pink">小程序</span>',
+                    intro: {
+                        keywords: '<p>关键词：<span class="m-pink">原生小程序</span></p>',
+                        description: '<p>该项目是使用<span class="m-pink">小程序原生API</span>制作，' + 
+                            '基于<span class="m-pink">番茄工作法</span>实现的一个todo类应用。</p>' +
+                            '<p>主要功能如下。</p><p>首页：todolist展示，以及对应的<span class="m-pink">增删改查</span>。</p><p>' + 
+                            '<p>倒计时页面：提供<span class="m-pink">倒计时</span>功能。</p>' + 
+                            '<p>个人页面：用户信息展示与<span class="m-pink">todo信息总览</span>。</p>'
+                    },
+                    previewLink: '',
+                    isQRCode: 'tomato',
+                },
+                {
                     imgsrc: require('../../static/img/works/blog.jpg'),
                     title: '多人共享博客',
                     intro: {
@@ -17,20 +31,7 @@ export default {
                             '<span class="m-pink">权限验证</span>等，vuex 管理状态，用封装的 <span class="m-pink">Axios 接口</span>获取数据。</p>'
                     },
                     previewLink: 'https://inkymountain.github.io/blog/dist',
-                    isQRCode: false,
-                },
-                {
-                    imgsrc: require('../../static/img/works/music-admin.jpg'),
-                    title: '网易云-管理界面 <span class="m-pink">PC端</span>',
-                    intro: {
-                        keywords: '<p>关键词：<span class="m-pink">原生JS 七牛云 LeanCloud</span>',
-                        description: '使用原生JS实现了音乐网站的后台管理页面。具备文件的<span class="m-pink">上传、编辑、标签</span>功能，' + 
-                            '支持拖拽与多文件上传。</p>' +
-                            '<p>通过<span class="m-pink">七牛云API</span>实现媒体文件存储，<span class="m-pink">LeanCloud</span>' + 
-                            '作为后端数据库，进行歌曲记录的存储。</p>',
-                    },
-                    previewLink: 'http://chenyitao.top/music/src/admin.html',
-                    isQRCode: false,
+                    isQRCode: '',
                 },
                 {
                     imgsrc: require('../../static/img/works/music-client.jpg'),
@@ -44,7 +45,7 @@ export default {
                             '使用<span class="m-pink">audio标签</span>实现音乐的<span class="m-pink">播放、暂停、进度条</span>等功能。</p>',
                     },
                     previewLink: 'http://chenyitao.top/music/src/',
-                    isQRCode: true,
+                    isQRCode: 'music',
                 },
             ],
             innerWidth: window.innerWidth,

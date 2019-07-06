@@ -5,6 +5,19 @@ export default {
         return {
             works: [
                 {
+                    imgsrc: require('../../static/img/works/music-admin.jpg'),
+                    title: '网易云-管理界面 <span class="m-pink">PC端</span>',
+                    intro: {
+                        keywords: '<p>关键词：<span class="m-pink">原生JS 七牛云 LeanCloud</span>',
+                        description: '使用原生JS实现了音乐网站的后台管理页面。具备文件的<span class="m-pink">上传、编辑、标签</span>功能，' + 
+                            '支持拖拽与多文件上传。</p>' +
+                            '<p>通过<span class="m-pink">七牛云API</span>实现媒体文件存储，<span class="m-pink">LeanCloud</span>' + 
+                            '作为后端数据库，进行歌曲记录的存储。</p>',
+                    },
+                    previewLink: 'http://chenyitao.top/music/src/admin.html',
+                    isQRCode: '',
+                },
+                {
                     imgsrc: require('../../static/img/works/drawing-board.jpg'),
                     title: '画板',
                     intro: {
@@ -16,7 +29,7 @@ export default {
                             '使线条更为<span class="m-pink">流畅与柔和</span>。</p>',
                     },
                     previewLink: 'https://inkymountain.github.io/Drawing-board/',
-                    isQRCode: false,
+                    isQRCode: '',
                 },
                 {
                     imgsrc: require('../../static/img/works/dynamic-resume.jpg'),
@@ -30,21 +43,21 @@ export default {
                         '<span class="m-pink">marked.js</span>实现markdown转换, 并使用css定制markdown最终效果。</p>',
                     },
                     previewLink: 'https://inkymountain.github.io/Dynamic-Resume/',
-                    isQRCode: false,
+                    isQRCode: '',
                 },
-                {
-                    imgsrc: require('../../static/img/works/nav.jpg'),
-                    title: '网址导航',
-                    intro: {
-                        keywords: '<p>关键词：<span class="m-pink">键盘导航 随机壁纸</span>',
-                        description: '该项目使用原生JS实现了一个键盘导航网站，按下键盘上对应字母跳转相应网站' + 
-                            '支持自动获取网址icon，支持网站的编辑和移除。</p>'+ 
-                            '<p>另外使用了<span class="m-pink">pixabay图库（图片资源网站）的接口</span>，XMLHttpRequest发出异步请求，' + 
-                            '获取json，实现随机壁纸效果。</p>',
-                    },
-                    previewLink: 'https://inkymountain.github.io/navigation/',
-                    isQRCode: false,
-                },
+                // {
+                //     imgsrc: require('../../static/img/works/nav.jpg'),
+                //     title: '网址导航',
+                //     intro: {
+                //         keywords: '<p>关键词：<span class="m-pink">键盘导航 随机壁纸</span>',
+                //         description: '该项目使用原生JS实现了一个键盘导航网站，按下键盘上对应字母跳转相应网站' + 
+                //             '支持自动获取网址icon，支持网站的编辑和移除。</p>'+ 
+                //             '<p>另外使用了<span class="m-pink">pixabay图库（图片资源网站）的接口</span>，XMLHttpRequest发出异步请求，' + 
+                //             '获取json，实现随机壁纸效果。</p>',
+                //     },
+                //     previewLink: 'https://inkymountain.github.io/navigation/',
+                //     isQRCode: false,
+                // },
         ]
         }
     },

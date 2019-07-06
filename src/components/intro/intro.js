@@ -7,6 +7,8 @@ export default {
             avatarUrl: 'background-image: url(' + require('../../static/img/avatar.jpg') + ');',
             bluebgUrl: 'background-image: url(' + require('../../static/img/bluebg.jpg') + ');',
             innerWidth: window.innerWidth,
+            blogLink: 'https://inkymountain.github.io/archives/',
+            GitHubLink: 'https://github.com/inkyMountain',
         }
     },
     methods:{
